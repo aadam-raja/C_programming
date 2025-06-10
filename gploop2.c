@@ -1,9 +1,9 @@
 #include<stdio.h>
-int main() {
-int a;
-int n;
+int main () {
+int i,n;
 printf("ENTER NUMBER");
 scanf("%d",&n);
-for(a=n;a>=1;a--)
-printf("%d\n",a);
+for(i=100;i>=n;i/=2)
+
+{printf("%d\n",i);}
 return 0; }
