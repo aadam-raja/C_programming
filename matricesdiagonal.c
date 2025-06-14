@@ -14,11 +14,7 @@ int main()
     }
     for (i = 0; i < 3; i++)
     {
-        for (j = 0; j < 3; j++)
-        {
-            if (i == j)
-                sum += A[i][j];
-        }
+        sum += A[i][i];
     }
     printf("%d", sum);
     return 0;
