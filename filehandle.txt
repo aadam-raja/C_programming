@@ -1,0 +1,4 @@
+The C Programming language still has a good application in hardware systems.
+It gained popularity during the 80s but then other languages overpowered it and became much more popular and widely used these include 
+C++,Java and Python.
+Nowadays newer languages like Rust,GO and Zig are taking the programming world by storm.

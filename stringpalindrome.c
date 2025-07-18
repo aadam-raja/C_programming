@@ -6,13 +6,13 @@ int main()
     int i = 0, j, isPalindrome = 1, length = 0;
 
     printf("ENTER STRING: ");
-    scanf(" %[^\n]", str); 
-    while (str[length] != '\0')
+    scanf(" %[^\n ]s", str);
+    while (str[i] != '\0')
     {
         length++;
+        i++;
     }
 
-    
     for (i = 0, j = length - 1; i < j; i++, j--)
     {
         if (str[i] != str[j])
@@ -22,7 +22,6 @@ int main()
         }
     }
 
-    
     if (isPalindrome)
         printf("The string is a palindrome.\n");
     else
